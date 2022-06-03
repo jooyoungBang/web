@@ -44,6 +44,10 @@
   border: 1px solid #ddd;
 }
 
+.quick_pc ul_aution {
+  border: 1px solid #ddd;
+}
+
 .quick_pc ul:first-child {
   font-size: 15px;
   color: #000;

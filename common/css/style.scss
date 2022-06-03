@@ -16,6 +16,7 @@ $color-danger: $red;
     li {display: inline; color: $mainColor; background: url($imgIcon + "icon.png");}
     &:last-child {color: $mainColor;}
     &_name {border: 1px solid #ddd;}
+    &_aution {border: 1px solid #ddd;}
     &:first-child {font-size: 15px; color: #000;}
   }
   
