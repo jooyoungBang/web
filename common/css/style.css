@@ -1,0 +1,41 @@
+.header_con {
+  color: red;
+  display: block;
+  width: 530px;
+}
+
+.header_con .gnb_box {
+  float: left;
+  color: #000;
+  background: fixed;
+}
+
+.header_con .gnb {
+  height: 80px;
+}
+
+.header_con .gnb li {
+  float: left;
+}
+
+.header_con .gnb:first-child {
+  margin-top: 0;
+}
+
+.header_con .gnb:last-child {
+  margin-right: 0;
+}
+
+.quick_pc ul {
+  display: block;
+}
+
+.quick_pc ul li {
+  display: inline;
+  color: red;
+  background: url("../images/icon/icon.png");
+}
+
+.quick_pc ul:last-child {
+  color: red;
+}
