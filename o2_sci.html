@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="euc-kr">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport">
+<meta name="format-detection" content="telephone=no" />
+<title>오투과학 - VR과학여행</title>
+<script src="lib/js/jquery-3.3.1.min.js"></script>
+<script src="lib/js/scroll_o2_sci.js"></script>
+<link rel="stylesheet" type="text/css" href="lib/css/o2_sci.css">
+<link rel="stylesheet" type="text/css" href="lib/css/font.css">
+</head>
+<body>
+	<div class="wisecamp_site">
+        <!-- 컨텐츠박스 -->
+		<div class="container">
+            <div class="cont_top">
+                <h1 class="logo_o2">오투과학</h1>
+                <ul class="gnb">
+                    <!--현재 페이지 on 클래스 추가-->
+                    <li class="step_01 on">
+                        <a href="o2_sci.html">VR과학여행</a>
+                    </li>
+                    <li class="step_02">
+                        <a href="o2_sci_02.html">가상 실험
+                        </a>
+                    </li>
+                    <li class="step_03">
+                        <a href="o2_sci_03.html">교과서 실험</a>
+                    </li>
+                    <li class="step_04">
+                        <a href="o2_sci_04.html">과학자 이야기</a>
+                    </li>
+                </ul><!--./gnb-->
+                
+                <!--닫기-->
+                <a href="#;" class="close">닫기</a>
+                <!--./닫기-->
+            </div><!--./cont_top-->
+            
+			<div class="content">
+                <div class="top_guide">
+                    <!--학습안내-->
+                    <div class="top_btnbx">
+                        <a href="#;" class="btn btn_guide">학습안내</a>
+                    </div>
+                    <!--./학습안내-->
+                    
+                    <!--학년선택-->
+                    <div class="grade_setbx">
+                        <span class="text">6학년</span>
+                        <span class="set_btn">설정하기</span>
+                        <ul id="liYearTerm" class="grade_ul">
+                            <li><a href="#;" school_year="1" term="1">1학년</a></li>
+                            <li><a href="#;" school_year="2" term="1"  class="select">2학년</a></li>
+                            <li><a href="#;" school_year="3" term="1">3학년</a></li>
+                            <li><a href="#;" school_year="4" term="1">4학년</a></li>
+                            <li><a href="#;" school_year="5" term="1">5학년</a></li>
+                            <li><a href="#;" school_year="6" term="1">6학년</a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        $('.grade_setbx .text').on('click', function(e) {
+                            $(this).closest(".grade_setbx").find(".set_btn").toggleClass('on');
+                        });
+                    </script>
+                    <!--./학년선택-->
+                </div>
+                
+                <!--차시리스트 영역-->
+                <div class="con_list">
+                    <!--차시리스트-->
+                    <div class="con_table_wrap">
+                        <div class="scrollbar">
+                            <div class="scrollbar_face"></div>
+                        </div>
+                        <div class="wrap_article">
+                            <div class="con_table">
+                                <ul class="o2_list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">-</span></p>
+                                        </a>
+                                        
+                                        <!--학습중-->
+                                        <span class="book_state book_read">학습중</span>
+                                        <!--./학습중-->
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">2020.08.20</span></p>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">2020.08.20</span></p>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">2020.08.20</span></p>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">2020.08.20</span></p>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <img src="lib/img/o2_sci/thumb_sample.png" alt="썸네일"/>
+                                            <!--차시명-->
+                                            <p class="class">
+                                                <strong>[고성] 공룡 발자국 화석 산지</strong>
+                                            </p>
+                                            <!--./차시명-->
+                                            <p class="date_bx">학습일 <span class="date">2020.08.20</span></p>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div><!--./con_table-->
+                        </div>
+                    </div><!--./차시리스트-->
+                </div>
+                <!--./차시리스트 영역-->
+            </div>
+		</div>
+		<!-- ./컨텐츠박스 -->
+    </div>    
+</body>
+</html>

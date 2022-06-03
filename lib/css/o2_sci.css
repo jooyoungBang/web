@@ -1,0 +1,121 @@
+@charset "euc-kr";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {margin: 0;padding: 0;border: 0;vertical-align: baseline; -webkit-box-sizing: border-box;box-sizing: border-box;font-family:"NanumGothic", "³ª´®°íµñ", "³ª´® °íµñ",Helvetica,"Apple SD Gothic Neo",sans-serif; letter-spacing: -0.05em; -webkit-tap-highlight-color:transparent;}
+a, li {list-style: none;text-decoration: none;}
+a, span {display: block;}
+a, div, button { -webkit-tap-highlight-color:transparent;}
+body {overflow: hidden;}
+.wisecamp_site {width: 1333px;height: 776px;margin: 0 auto;overflow: hidden;position: relative;}
+.close {width: 33px; height: 33px; position: absolute; top: 23px; right: 20px; font-size: 0; background: url(../img/o2_sci/close.png) no-repeat;}
+
+.container {height: 100%;}
+.cont_top {height: 80px; background: #8ed8f8 repeat-x;}
+.logo_o2 {width: 236px;height: 85px;background: url(../img/o2_sci/logo_o2.png) no-repeat 0 13px;text-indent: -9999em;margin: -5px 0 0 17px;float: left;}
+
+.cont_top .gnb {display: inline-block;margin: 25px 0 0 57px;}
+
+.cont_top .gnb > li {float: left; height: 34px; margin-right: 49px;}
+.cont_top .gnb > li:last-child {margin-right: 0;}
+.cont_top .gnb > li > a {height: 34px; background: url(../img/o2_sci/gnb.png) no-repeat; text-indent: -99999em;}
+
+.cont_top .gnb > li.step_01 > a {background-position: 0 0;width: 154px;}
+.cont_top .gnb > li.step_02 > a {background-position: -203px 0; width: 115px;}
+.cont_top .gnb > li.step_03 > a {background-position: -367px 0;width: 142px;}
+.cont_top .gnb > li.step_04 > a {background-position: -558px 0;width: 170px;}
+
+.cont_top .gnb > li.step_01.on > a {background-position: 0 -34px;}
+.cont_top .gnb > li.step_02.on > a {background-position: -203px -34px;}
+.cont_top .gnb > li.step_03.on > a {background-position: -367px -34px;}
+.cont_top .gnb > li.step_04.on > a {background-position: -558px -34px;}
+
+.top_guide {height: 70px;float: right;margin: 20px 30px 0 0;}
+.top_btnbx {float: left;margin-top: 13px;}
+.btn_guide{width: 138px; height: 25px; background: url(../img/o2_sci/btn_guide.png) no-repeat; text-indent: -9999em;}
+
+/*ÇÐ³â¼³Á¤*/
+.grade_setbx {width: 213px;height: 50px;color: #fff;letter-spacing: 0;position: relative;display: inline-block;margin-left: 41px;}
+.grade_setbx .set_btn{width:11px;height: 9px;display: block;position: absolute;top: 20px;right: 20px;font-size: 0;background: url(../img/o2_sci/setbx.png) no-repeat 0 -9px;z-index: 3;}
+.grade_setbx .set_btn.on {background-position: 0 0;}
+.grade_setbx .text{z-index: 3;font-size: 22px;color: #000;line-height: 48px;display: block;position: relative;padding-left: 20px; border: 1px solid #cce5f6;border-radius: 10px;background-color: #fff;}
+
+/*¼¿·º¹Ú½º*/
+.grade_setbx .grade_ul {display: none;}
+.grade_setbx .set_btn.on + .grade_ul{position: absolute;height: auto;top: 56px;left:0;right:0;z-index: 2;display: block;padding-top: 5px;background-color: #fff;border-radius: 10px;border: 1px solid #cce5f6;background-color: #fff;}
+.grade_setbx .grade_ul li a{display: block;font-size: 18px;color: #666;line-height: 40px;border-radius: 20px;height: 40px;margin-bottom: 1px;padding-left: 22px;}
+.grade_setbx .grade_ul li a.select{position: relative;color: #fff;background-color: #00aca5;height: 42px;border-radius: 0;font-weight: bold;}
+.grade_setbx .grade_ul li a.select:after{content: "";position: absolute;background: url(../img/o2_sci/grade_select.png) no-repeat;width: 18px;height: 14px;right: 16px;top: 13px;}
+
+
+/*ÄÁÅÙÃ÷*/
+.content {height: 100%;clear: both; background-color: #e9f5fb;}
+
+.con_list {margin: 0 auto;width: 100%;text-align: center;padding: 0 30px;}
+.con_list_top {height: 84px;line-height: 84px;vertical-align: middle;margin: 0 30px;border-bottom: 2px solid #eee;margin-top: 40px;}
+.con_list_top:first-child {margin-top: 0;}
+
+.con_table_wrap {position: relative;}
+.con_table {display: table;margin-bottom: 10px;margin-right: -20px;}
+.con_table ul {display: block;}
+
+
+.o2_list {display: inline-block; width: 100%;}
+.o2_list li {float: left;width: 393px;height: 340px;background-color: #fff;border-radius: 15px;margin-right: 46.5px;padding-left: 24px;margin-bottom: 40px;text-align: left;position: relative;}
+.o2_list_02 li {height: 365px;}
+.o2_list_03 li {width: 290px;height: 394px; margin-right: 37px;}
+.o2_list_04 li {width: 290px;height: 337px; margin-right: 37px;}
+
+.o2_list li img {border-radius: 15px 15px 0 0;margin-left: -24px;margin-bottom: 20px;width: 393px;height: 220px;}
+.o2_list li .video {border-radius: 15px 15px 0 0;margin-left: -25px;margin-bottom: 20px;width: 290px;height: 162px;position: relative;}
+.o2_list li .video img {width: 290px;height: 162px; margin-left: 0;}
+.o2_list li .color{color: #00abeb;}
+.o2_list li .date_bx{color: #999;font-size: 18px;position: absolute;bottom: 23px;}
+.o2_list_02 li .date_bx {bottom: 20px;}
+.o2_list li .date{display: inline-block;margin-left: 9px;}
+.o2_list li .class {font-size: 26px;font-weight: bold;color: #222;height: 27px;line-height: 22px;margin-bottom: 10px;}
+.o2_list li .unit {font-size: 18px;color: #222;height: 20px;line-height: 17px;}
+.o2_list li .unit .unit_color {display: inline-block; color: #999; margin-right: 10px;}
+
+.o2_list li .class, .o2_list li .unit { width: 365px;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+
+.o2_list_03 li .video, .o2_list_04 li .video {margin-bottom: 24px;}
+.o2_list_03 li .unit, .o2_list_04 li .unit {color: #00abeb;margin-bottom: 8px; white-space: normal;width: 240px;}
+.o2_list_03 li .class, .o2_list_04 li .class {font-size: 20px;white-space: normal;width: 240px;overflow: initial;height: auto;line-height: 24px;}
+.o2_list_03 li .class {height: 77px; margin-top: -3px;}
+
+.o2_list_04 li {height: 288px;}
+.o2_list_04 li .unit {color: #222;margin-bottom: 7px;}
+.o2_list_03 li .date_bx {bottom: 13px;}
+.o2_list_04 li .date_bx {bottom: 20px;}
+.o2_list_03 li .public {width: 240px; word-break: keep-all; font-size: 18px; line-height: 24px; color: #222;}
+
+.time {border-radius: 5px;background: rgba(0, 0, 0, 0.7);font-size: 13px;color: #fff;padding: 4px 5px;display: inline-block;position: absolute;bottom: 5px;right: 5px;line-height: 12px;}
+
+.coming {
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    padding-top: 125px;
+}
+.coming p {
+    font-size: 26px;
+    color: #999;
+}
+
+/*ÇÐ½ÀÁß*/
+.book_state {position: absolute; top: 0; left: 0; width: 100px; height: 45px; line-height: 43px; padding: 0 10px; background-color: #027ecd; border-radius: 15px 0 15px 0; font-size: 22px; font-weight: bold; color: #fff; text-align: center;}
+
+
+/* custom scrollbar */
+.scrollbar {position: absolute;top: 90px;right: -30px;width: 10px;height: 80%;background-color: transparent;z-index:10;}
+.scrollbar_face {position: absolute;top: 0;width: 100%;height: 115px;background-color: #bbb; border-radius: 10px;}
+
+.wrap_article {position: relative;width: 1300px;height: 605px; margin: 0 auto; overflow-x: hidden;overflow-y: scroll;-ms-overflow-style: none;color: #000;}
+.wrap_article::-webkit-scrollbar { display: none;}
+
+@media screen and (min-width: 1px) and (max-width:1280px) { 
+    .wisecamp_site {width: 1280px;}
+    .o2_list li {margin-right: 20px;}
+    .o2_list_03 li, .o2_list_04 li {margin-right: 20px;}
+}
+
+
