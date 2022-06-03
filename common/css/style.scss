@@ -15,8 +15,10 @@ $color-danger: $red;
   ul {display: block;
     li {display: inline; color: $mainColor; background: url($imgIcon + "icon.png");}
     &:last-child {color: $mainColor;}
+    &_name {border: 1px solid #ddd;}
+    &:first-child {font-size: 15px; color: #000;}
   }
-  &_name {border: 1px solid #ddd;}
+  
 
 }
 

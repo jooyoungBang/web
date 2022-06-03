@@ -39,3 +39,12 @@
 .quick_pc ul:last-child {
   color: red;
 }
+
+.quick_pc ul_name {
+  border: 1px solid #ddd;
+}
+
+.quick_pc ul:first-child {
+  font-size: 15px;
+  color: #000;
+}
